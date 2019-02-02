@@ -82,7 +82,7 @@ client.on('guildMemberAdd', member => {
     var wel_embed = new Discord.RichEmbed()
      .setColor(pcolor)
      .setAuthor("Bienvenue sur le discord " + member.user.username + " " , member.user.avatarURL)
-     .setThumbnail("https://airkass.s-ul.eu/WY7Ok0nT")
+     .setThumbnail("https://airkass.s-ul.eu/UM2hHA44")
      .setTimestamp()
      .setFooter("Discord bot by AirKass#0472 - https://airkass.tk")
     member.createDM().then(channel => {
