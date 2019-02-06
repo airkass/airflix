@@ -9,7 +9,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 // ⇉ CONFIGURATION
-const token = "NTQxMjA2NTk1Nzc5MDM1MTQ2.DztSWg.ZTuu2rY5sjPR1EVukE-45d3n_0I"; // → TOKEN DU BOT
+const token = process.env.TOKEN; // → TOKEN DU BOT
 var prefix = "/"; // → PREFIX DU BOT
 var cbienvenue = "542758943600934913"; // → ID DU SALON DE BIENVENUE
 var pcolor = "#FFFF00"; // → COULEUR PRIMAIRE (embed...)
